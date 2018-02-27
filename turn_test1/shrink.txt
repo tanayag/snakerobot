@@ -1,0 +1,83 @@
+#include <Servo.h>
+
+Servo s1;
+Servo s2;
+Servo s3;
+Servo s4;
+Servo s5;
+Servo s6;
+Servo s7;
+Servo s8;
+Servo s9;
+
+int m1=9;
+int m2=4;
+int m3=2;
+int m4=7;
+int m5=10;
+int m6=3;
+int m7=5;
+int m8=6;
+int m9=8;
+
+void setup() {
+  // put your setup code here, to run once:
+  
+  s1.attach(m1);
+  s2.attach(m2);
+  s3.attach(m3);
+  s4.attach(m4);
+  s5.attach(m5);
+  s6.attach(m6);
+  s7.attach(m7);
+  s8.attach(m8);
+  s9.attach(m9);
+  
+}
+
+void loop() {
+
+   s3.write(170);
+   s1.write(170);
+   s5.write(130);
+  s9.write(20);
+  s7.write(55);
+  delay(1000);
+   
+   s7.write(55-10);
+   s9.write(20);
+   s5.write(130+20);
+   s3.write(170);
+   s1.write(170);
+   delay(500);
+  
+   s4.write(90-25);
+   s5.write(130+20);
+   s3.write(170);
+   s1.write(170); 
+   s7.write(55-10);
+   s9.write(20);
+   s6.write(90-30);
+   s2.write(90-25);
+   delay(500);
+   
+   s7.write(55);
+   s9.write(20);
+   s5.write(130);
+   s3.write(170);
+   s1.write(170);
+   delay(500);
+  
+   s4.write(90);
+   s2.write(90);
+   s6.write(90);
+   s3.write(170);
+   s1.write(170);
+   s5.write(130);
+   s9.write(20);
+   s7.write(55);
+   delay(500);
+ 
+   
+
+}

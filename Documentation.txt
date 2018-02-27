@@ -1,0 +1,85 @@
+# ARDUINO ON REMOTE CONTROL
+
+Arduino Promini and nrf
+Pins Arduino	NRF Module	
+D8					CE
+D10					CSN
+D11					MOSI
+D12					MISO
+D13					SCK
+GND					GND
+VCC 				VCC
+--					IRQ
+
+JoyStick1
+Pins	Axis
+A1		x1
+A0		y1
+A2		z1
+		
+JoyStick2
+Pins	Axis
+A4		x2
+A5		y2
+A3		z2
+
+Switches
+Pins	Buttons
+D2		RB1
+D3		RB4
+D4		RB3
+D5		RB2
+D6		LB3
+D7		LB1
+D9		LB2
+
+-----------------
+
+# SLAVE ARDUINO
+
+Motors
+PIN       MOTOR
+2nd        3rd
+3rd        6th
+4th        2nd
+5th        7th(Repaired Gear)
+6th        8th
+7th        4th
+8th        9th
+9th        1st
+10th       5th
+
+Buzzer
+Pin - D11
+
+
+---------------
+
+#Master Arduino
+
+Arduino Pro Mini to NRF Module
+Pins NRF		Pins Arduino
+VCC					VCC
+GND					GND
+CSN					D10
+CE					D8
+MOSI				D11
+SCK					D13
+MISO				D12
+IRQ					--
+
+RGB Color Sensor
+Pins	Sensor Pins
+5			s2
+6			s3
+4		  Out Pin
+
+RGB Led
+Pins		ColorPin
+3			Red
+9			Green
+10			Blue
+
+
+
+

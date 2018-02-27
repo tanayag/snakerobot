@@ -1,0 +1,5 @@
+x1 = (x1*0.5)+45;
+      s2.write(x1);
+      s4.write(x1);
+      s6.write(x1);
+      s8.write(180-x1 + s8_err);
