@@ -1,11 +1,5 @@
 # Snake Robot
 
-## Team
-* Rishav Sharma
-* Md. Zeeshan Qazi
-* Abhishek Chauhan
-* Tanay Agrawal
-
 ## About Code and Project
 
 This is a project where we are implementing a robotic snake with degree of freedom 9, 9 servo motors are connected with their axis of motion perpendicular to each other on alternate positions.
