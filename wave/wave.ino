@@ -40,37 +40,37 @@ void loop()
   delay(100);
 
   s9.write(44);
-  delay(300);
+  delay(400);
   
   s9.write(67);
   s5.write(113);
   s7.write(90+23);
-  delay(300);
+  delay(400);
 
   s9.write(90+23);
   s7.write(90+23+23);
   s5.write(113);
-  delay(300);
+  delay(400);
 
   s5.write(90-23-23);
   s3.write(90-23);
   s7.write(90-23);
   s9.write(90);
-  delay(300);
+  delay(400);
 
   s7.write(90);
   s5.write(90+23);
   s3.write(90+23+23);
   s1.write(90+23);
-  delay(300);
+  delay(400);
 
   s5.write(100);
   s3.write(90);
   s1.write(90);
-  delay(300);
+  delay(400);
   
   s5.write(90);
-  delay(200);
+  delay(300);
   
 }
 
